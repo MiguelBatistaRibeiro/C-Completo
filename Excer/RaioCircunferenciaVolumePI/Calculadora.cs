@@ -9,7 +9,7 @@ namespace RaioCircunferenciaVolumePI
     // Sem modificador de acesso - default > internal - Acessivel a um mesmo assembly - Ex: financeiro
     class Calculadora
     {
-        // Membos estáticos chama direto pelo nome classe em Program. Sem instancia.
+        // Membros estáticos chama direto pelo nome classe em Program. Sem instancia.
         public static double Pi = 3.14;
         public static double Circunferencia(double raio)
         {
