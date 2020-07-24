@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Globalization;
+
 namespace AdicionaRemoveProduto
 {
     class Program
