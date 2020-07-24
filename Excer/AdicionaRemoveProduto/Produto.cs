@@ -8,6 +8,14 @@ namespace AdicionaRemoveProduto
         public double Preco;
         public int Quantidade;
 
+        // Obriga a inicialização dos atributos da classe sendo > parametro = atributo da classe
+        public Produto(string nome, double preco, int quantidade)
+        {
+            Nome = nome;
+            Preco = preco;
+            Quantidade = quantidade;
+        }
+
         // calcula valor total produto estoque
         public double ValorTotalEstoque()
         {
