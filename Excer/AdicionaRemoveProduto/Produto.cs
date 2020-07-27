@@ -5,8 +5,6 @@ namespace AdicionaRemoveProduto
 {
     class Produto
     {
-        // PRIVATE IMPEDE ALTERAÇÃO EM PROGRAM > p._quantidade = 0; 
-        // ADICIONA E REMOVE APENAS POR AdicionarProdutos() e RemoverProdutos(). DEFAULT PRIVATE '_atributo'
         private string _nome;
         private double _preco;
         private int _quantidade;
@@ -16,22 +14,16 @@ namespace AdicionaRemoveProduto
             _preco = preco;
             _quantidade = quantidade;
         }
-        // PARA OBTER O VALOR DE _nome
-        public string GetNome()
+        // ACESSANDO ATRAVÉS DAS PROPETIES - VALUE CORRESPONDE AO PARAMETRO DO SET
+        public string Nome
         {
-            return _nome;
-        }
-        // PARA ALTERAR O VALOR DE _nome
-        public void SetNome(string nome)
-        {
-            _nome = nome;
-        }
-        // PODEMOS APLICAR UMA LÓGICA 
-        public void SetNomeLogica(string nome)
-        {   
-            if (nome != null & nome.Length > 1) {
-                _nome = nome;
-            }
+           get { return _nome; }
+           set {
+               if (value != null & value.Length > 1)
+                {
+                    _nome = value;
+                }
+            }     
         }
         public double ValorTotalEstoque()
         {

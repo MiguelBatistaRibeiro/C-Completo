@@ -9,14 +9,11 @@ namespace AdicionaRemoveProduto
         {
             Produto p = new Produto("TV", 500.00, 10);
 
-            // COM OS ATRIBUTOS PUBLIC É POSSÍVEL A ALTERAÇÃO DESSA FORMA
-            //p._quantidade = 2;
+            // EFETUANDO O SET 
+            p.Nome = "TV 4K";
 
-            // SENDO ATRIBUTO PRIVATE, O VALOR É ACESSIVEL PELO GET 
-            Console.WriteLine(p.GetNome());
-
-            // SENDO ATRIBUTO PRIVATE, O VALOR É ALTERADO PELO SET 
-            p.SetNome("TV 4K");
+            // EFETUANDO O GET 
+            Console.WriteLine(p.Nome);
             Console.ReadKey();
         }
     }
