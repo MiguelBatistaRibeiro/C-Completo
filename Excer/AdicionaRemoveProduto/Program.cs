@@ -7,38 +7,16 @@ namespace AdicionaRemoveProduto
     {
         static void Main(string[] args)
         {
-            
-            Console.WriteLine("Digite o nome produto: ");
-            string nome = Console.ReadLine(); 
-            
-            Console.WriteLine("Digite o preço: ");
-            double preco = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            Produto p = new Produto("TV", 500.00, 10);
 
-            Console.WriteLine("Digite a quantidade no estoque: ");
-            int quantidade = int.Parse(Console.ReadLine()); 
+            // COM OS ATRIBUTOS PUBLIC É POSSÍVEL A ALTERAÇÃO DESSA FORMA
+            //p._quantidade = 2;
 
-            Produto p = new Produto(nome, preco, quantidade); 
-            Console.WriteLine(p);
-                        
-            Console.WriteLine("Dados do produto: " + p);
-                                        
-            Console.WriteLine();
-            Console.Write("Adionar quantidade de produtos: ");
-            int qtde = int.Parse(Console.ReadLine());
-                       
-            p.AdicionarProdutos(qtde);
-                       
-            Console.WriteLine();
-            Console.WriteLine("Dados atualizados " + p);
-                        
-            Console.WriteLine();
-            Console.Write("Remover produtos: ");
-            int qtdeRemover = int.Parse(Console.ReadLine());
-            p.RemoverProdutos(qtdeRemover);
-            
-            Console.WriteLine();
-            Console.WriteLine("Dados atualizados " + p);
-            
+            // SENDO ATRIBUTO PRIVATE, O VALOR É ACESSIVEL PELO GET 
+            Console.WriteLine(p.GetNome());
+
+            // SENDO ATRIBUTO PRIVATE, O VALOR É ALTERADO PELO SET 
+            p.SetNome("TV 4K");
             Console.ReadKey();
         }
     }

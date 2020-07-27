@@ -1,48 +1,57 @@
-﻿using System.Globalization;
+﻿using System;
+using System.Globalization;
 
 namespace AdicionaRemoveProduto
 {
     class Produto
     {
-        public string Nome;
-        public double Preco;
-        public int Quantidade;
-
-        // Um construtor padrão inicializando Quantidade = 0;
-        public Produto()
+        // PRIVATE IMPEDE ALTERAÇÃO EM PROGRAM > p._quantidade = 0; 
+        // ADICIONA E REMOVE APENAS POR AdicionarProdutos() e RemoverProdutos(). DEFAULT PRIVATE '_atributo'
+        private string _nome;
+        private double _preco;
+        private int _quantidade;
+       public Produto(string nome, double preco, int quantidade) 
         {
-            Quantidade = 0;
+            _nome = nome;
+            _preco = preco;
+            _quantidade = quantidade;
         }
-        // Com : this() referencia construtor padrao que inciciou valor 'Quantidade'
-        public Produto(string nome, double preco) : this()
+        // PARA OBTER O VALOR DE _nome
+        public string GetNome()
         {
-            Nome = nome;
-            Preco = preco;
+            return _nome;
         }
-        // Da mesma forma usa o construtor acima que contém Nome = nome e Preco = preco
-        public Produto(string nome, double preco, int quantidade) : this(nome, preco)
+        // PARA ALTERAR O VALOR DE _nome
+        public void SetNome(string nome)
         {
-            Quantidade = quantidade;
+            _nome = nome;
+        }
+        // PODEMOS APLICAR UMA LÓGICA 
+        public void SetNomeLogica(string nome)
+        {   
+            if (nome != null & nome.Length > 1) {
+                _nome = nome;
+            }
         }
         public double ValorTotalEstoque()
         {
-            return Preco * Quantidade;
+            return _preco * _quantidade;
         }
         public void AdicionarProdutos(int quantidade)
         {   
-            Quantidade += quantidade;
+            _quantidade += quantidade;
         }
         public void RemoverProdutos(int quantidade)
         {   
-            Quantidade -= quantidade;
+            _quantidade -= quantidade;
         }
         public override string ToString()
         {
-            return Nome
+            return _nome
               + ", $ "
-              + Preco.ToString("F2", CultureInfo.InvariantCulture)
+              + _preco.ToString("F2", CultureInfo.InvariantCulture)
               + ", "
-              + Quantidade
+              + _quantidade
               + " unidades, Total: $ "
               + ValorTotalEstoque().ToString("F2", CultureInfo.InvariantCulture);
         }
