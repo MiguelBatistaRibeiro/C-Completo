@@ -7,18 +7,18 @@ namespace AdicionaRemoveProduto
     {
         static void Main(string[] args)
         {
+            
             Console.WriteLine("Digite o nome produto: ");
-            string nome = Console.ReadLine(); // CRIA UMA VARIAVEL AUXILIAR P RECEBER NOME
+            string nome = Console.ReadLine(); 
             
             Console.WriteLine("Digite o preço: ");
-            double preco = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture); // ...PRECO
+            double preco = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
-            // Uma sobrecarga do construtor com 2 argumentos apenas 
-            Produto p = new Produto(nome, preco); 
+            Console.WriteLine("Digite a quantidade no estoque: ");
+            int quantidade = int.Parse(Console.ReadLine()); 
+
+            Produto p = new Produto(nome, preco, quantidade); 
             Console.WriteLine(p);
-
-           // Instanciando o construtor padrão 
-           Produto p2 = new Produto();
                         
             Console.WriteLine("Dados do produto: " + p);
                                         

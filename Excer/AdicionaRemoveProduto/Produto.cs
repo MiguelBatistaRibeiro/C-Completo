@@ -8,40 +8,34 @@ namespace AdicionaRemoveProduto
         public double Preco;
         public int Quantidade;
 
-        // Obriga a inicialização dos atributos da classe sendo > parametro = atributo da classe
-        //public Produto(string nome, double preco, int quantidade)
-        //{
-        //    Nome = nome;
-        //    Preco = preco;
-        //    Quantidade = quantidade;
-        //}
-        // Cria sobrecarga de um construtor - Quantidade por defaul = 0 
-
-        //Construtor padrao
-        public Produto() { 
+        // Um construtor padrão inicializando Quantidade = 0;
+        public Produto()
+        {
+            Quantidade = 0;
         }
-        public Produto(string nome, double preco)
+        // Com : this() referencia construtor padrao que inciciou valor 'Quantidade'
+        public Produto(string nome, double preco) : this()
         {
             Nome = nome;
             Preco = preco;
-            Quantidade = 5;
         }
-        // calcula valor total produto estoque
+        // Da mesma forma usa o construtor acima que contém Nome = nome e Preco = preco
+        public Produto(string nome, double preco, int quantidade) : this(nome, preco)
+        {
+            Quantidade = quantidade;
+        }
         public double ValorTotalEstoque()
         {
             return Preco * Quantidade;
         }
-
-        // Executa soma valor atual + valor de entrada
         public void AdicionarProdutos(int quantidade)
-        {   // Quantidade = Quantidade + quantidade
+        {   
             Quantidade += quantidade;
         }
         public void RemoverProdutos(int quantidade)
-        {   // Quantidade = Quantidade - quantidade
+        {   
             Quantidade -= quantidade;
         }
-        // formata saida dos dados do produto para String
         public override string ToString()
         {
             return Nome
