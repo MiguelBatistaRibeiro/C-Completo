@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaioCircunferenciaVolumePI"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdicionaRemoveProduto", "AdicionaRemoveProduto\AdicionaRemoveProduto.csproj", "{FC0E69ED-3251-46C8-A8BC-98041BA6FB59}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContaBancaria", "ContaBancaria\ContaBancaria.csproj", "{61E0AE45-C528-4CD1-B5CE-02735B054BED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{FC0E69ED-3251-46C8-A8BC-98041BA6FB59}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC0E69ED-3251-46C8-A8BC-98041BA6FB59}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC0E69ED-3251-46C8-A8BC-98041BA6FB59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61E0AE45-C528-4CD1-B5CE-02735B054BED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61E0AE45-C528-4CD1-B5CE-02735B054BED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61E0AE45-C528-4CD1-B5CE-02735B054BED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61E0AE45-C528-4CD1-B5CE-02735B054BED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
