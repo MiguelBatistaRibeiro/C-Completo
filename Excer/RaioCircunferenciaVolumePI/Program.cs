@@ -10,7 +10,6 @@ namespace RaioCircunferenciaVolumePI
       
         static void Main(string[] args)
         {
-    
             Console.WriteLine("Entre com o valor do raio: ");
             var valorRaio = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
