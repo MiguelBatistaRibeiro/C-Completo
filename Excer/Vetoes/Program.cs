@@ -33,8 +33,6 @@ namespace Vetores
 
             Console.WriteLine("Média dos números = " + media.ToString("F2", CultureInfo.InvariantCulture));
 
-
-
             // Fazer um programa para ler um numero inteiro N e os dados (nome e preço) de N Produtos. Armazene
             // os N produtos em um vetor. Em seguida, mostrar o preço médio dos produtos.
             Console.WriteLine("ENTRE COM O TAMANHO DA LISTA DE PRODUTOS: ");
