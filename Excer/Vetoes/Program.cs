@@ -30,7 +30,6 @@ namespace Vetores
                 sum += vetorNumeros[i];
             }
             double media = sum / n;
-
             Console.WriteLine("Média dos números = " + media.ToString("F2", CultureInfo.InvariantCulture));
 
             // Fazer um programa para ler um numero inteiro N e os dados (nome e preço) de N Produtos. Armazene
@@ -58,7 +57,6 @@ namespace Vetores
             {
                 soma += vetProd[i].Preco;
             }
-
             double mediaProd = sum / qtdProdutos;
             Console.WriteLine($"A média dos preços é {mediaProd.ToString("F2", CultureInfo.InvariantCulture)}");
 

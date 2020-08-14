@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Matriz
 {
@@ -19,7 +15,7 @@ namespace Matriz
             for (int i = 0; i < n; i++) 
             {   // cria vetor recebendo tamanho conforme Split(' '). Se ntrada maior 3- Matriz desconsidera
                 string[] values = Console.ReadLine().Split(' ');
-                // 
+                // percorre colunas sendo j = 0 -- j = 1 -- j = 2.
                 for (int j = 0; j < n; j++)
                 {
                     mat[i, j] = int.Parse(values[j]);
