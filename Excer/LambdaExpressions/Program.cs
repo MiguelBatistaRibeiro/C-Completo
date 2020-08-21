@@ -12,9 +12,9 @@ namespace LambdaExpressions
             foreach (int element in fibNumbers)
             {
                 count = count + 1;
-                Console.WriteLine($"Element #{count}: {element}");
+                Console.WriteLine($"Elemento #{count}: {element}");
             }
-            Console.WriteLine($"Number of elements: {count}");
+            Console.WriteLine($"Numero de elementos: {count}");
             
             Console.WriteLine("---------------------------------------------");
             
@@ -74,7 +74,5 @@ namespace LambdaExpressions
         //{
         //    return s[0] == 'A';
         //}
-
-        // 08:35
     }
 }

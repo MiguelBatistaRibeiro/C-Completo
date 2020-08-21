@@ -22,7 +22,7 @@ namespace Matriz
                 }
             }
             // Percorre todas linhas e imprime apenas onde i = i
-            Console.WriteLine("Main diagonal:");
+            Console.WriteLine("Diagonal do Meio:");
             for (int i = 0; i < n; i++)
             {
                 Console.Write(mat[i, i] + " "); // imprime 1e1 2e2 3e3
@@ -40,7 +40,7 @@ namespace Matriz
                     }
                 }
             }
-            Console.WriteLine("Negative numbers: " + count);
+            Console.WriteLine("Numeros Negativos: " + count);
             Console.ReadKey();
         }
     }

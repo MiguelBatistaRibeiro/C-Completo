@@ -18,11 +18,11 @@ namespace Enumeracao
 
             // converte enum para string - basta chamar o ToString
             string txt = OrderStatus.PendingPayment.ToString();
-            Console.WriteLine("Enum to String: " + txt);
+            Console.WriteLine("Enum para String: " + txt);
 
             // converte string para enum 
             OrderStatus os = (OrderStatus)Enum.Parse(typeof(OrderStatus), "Delivered");
-            Console.WriteLine("String to Enum: "+ os);
+            Console.WriteLine("String para Enum: "+ os);
 
             Console.ReadLine();
         }

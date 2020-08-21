@@ -35,22 +35,22 @@ namespace MatrizTwo
                 {
                     if (mat[i, j] == x) // se em umas das posições encontrar um x nº
                     {
-                        Console.WriteLine("Position " + i + "," + j + ":"); // informe a posição i e j da matriz
+                        Console.WriteLine("Posição " + i + "," + j + ":"); // informe a posição i e j da matriz
                         if (j > 0) // se j coluna > 0
                         {
-                            Console.WriteLine("Left: " + mat[i, j - 1]); // i linha tal e j - 1 o da esquerda
+                            Console.WriteLine("Esquerdo: " + mat[i, j - 1]); // i linha tal e j - 1 o da esquerda
                         }
                         if (i > 0) // se linha i > 0
                         {
-                            Console.WriteLine("Up: " + mat[i - 1, j]); // i - 1 mostra Up e j coluna tal
+                            Console.WriteLine("Acima: " + mat[i - 1, j]); // i - 1 mostra Up e j coluna tal
                         }
                         if (j < n - 1) // se n até 3, então n sendo 3 - n será 2. sendo n < j(2)
                         {
-                            Console.WriteLine("Right: " + mat[i, j + 1]); // j + 1 exibe Right
+                            Console.WriteLine("Direito: " + mat[i, j + 1]); // j + 1 exibe Right
                         }
                         if (i < m - 1) // se m até 3, então m sendo 3 - m será 2. sendo m < i(2)
                         {
-                            Console.WriteLine("Down: " + mat[i + 1, j]); // i + 1 exibe Down
+                            Console.WriteLine("Abaixo: " + mat[i + 1, j]); // i + 1 exibe Down
                         }
                     }
                 }
