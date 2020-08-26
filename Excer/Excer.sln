@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrabalhadorContrato", "Trab
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "String-Builder", "String-Builder\String-Builder.csproj", "{1DCED874-5134-46B8-A096-7BB93BFD227B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeAndOutsourcedEmployee", "WorkerPrivateOutsourced\EmployeeAndOutsourcedEmployee.csproj", "{CF8E4272-0067-47B2-A06B-9D69AAF36C07}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{1DCED874-5134-46B8-A096-7BB93BFD227B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1DCED874-5134-46B8-A096-7BB93BFD227B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1DCED874-5134-46B8-A096-7BB93BFD227B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF8E4272-0067-47B2-A06B-9D69AAF36C07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF8E4272-0067-47B2-A06B-9D69AAF36C07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF8E4272-0067-47B2-A06B-9D69AAF36C07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF8E4272-0067-47B2-A06B-9D69AAF36C07}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
