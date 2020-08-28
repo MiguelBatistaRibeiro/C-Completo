@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeAndOutsourcedEmploy
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractObjects", "AbstractObjects\AbstractObjects.csproj", "{40A50526-4626-4C6C-9E40-FB412430E376}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TryCatch", "TryCatch\TryCatch.csproj", "{B3AC41DF-788A-4AC9-A616-9BABA8FB01DF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{40A50526-4626-4C6C-9E40-FB412430E376}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40A50526-4626-4C6C-9E40-FB412430E376}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40A50526-4626-4C6C-9E40-FB412430E376}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3AC41DF-788A-4AC9-A616-9BABA8FB01DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3AC41DF-788A-4AC9-A616-9BABA8FB01DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3AC41DF-788A-4AC9-A616-9BABA8FB01DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3AC41DF-788A-4AC9-A616-9BABA8FB01DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
