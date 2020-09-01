@@ -1,4 +1,5 @@
 ﻿using CustomExeption.Entities;
+using CustomExeption.Entities.Exceptions;
 using System;
 
 namespace CustomExeption
@@ -7,19 +8,15 @@ namespace CustomExeption
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Numero do Quarto: ");
-            int number = int.Parse(Console.ReadLine());
-            Console.WriteLine("Data Entrada (dd/MM/yyyy): ");
-            DateTime checkIn = DateTime.Parse(Console.ReadLine());
-            Console.WriteLine("Data Saída (dd/MM/yyyy): ");
-            DateTime checkOut = DateTime.Parse(Console.ReadLine());
+            try
+            {
+                Console.WriteLine("Numero do Quarto: ");
+                int number = int.Parse(Console.ReadLine());
+                Console.WriteLine("Data Entrada (dd/MM/yyyy): ");
+                DateTime checkIn = DateTime.Parse(Console.ReadLine());
+                Console.WriteLine("Data Saída (dd/MM/yyyy): ");
+                DateTime checkOut = DateTime.Parse(Console.ReadLine());
 
-            if (checkOut <= checkIn)
-            {
-                Console.WriteLine("Erro: Data de Saída menor que Entrada");
-            }
-            else
-            {
                 Reservation reservation = new Reservation(number, checkIn, checkOut);
                 Console.WriteLine("Reserva: " + reservation);
 
@@ -30,18 +27,24 @@ namespace CustomExeption
                 Console.WriteLine("Data Saída (dd/MM/yyyy): ");
                 checkOut = DateTime.Parse(Console.ReadLine());
 
-                string error = reservation.UpdateDates(checkIn, checkOut);
-                
-                if(error != null)
-                {
-                    Console.WriteLine("Erro na reserva: " + error);
-                }
-                else
-                {
-                    Console.WriteLine("Reserva: " + reservation);
-                }
+                reservation.UpdateDates(checkIn, checkOut);
+                Console.WriteLine("Reserva: " + reservation);
+
+                Console.ReadLine();
             }
-            Console.ReadLine();
+            catch (DomainException e)
+            {
+                Console.WriteLine("Erro na reserva: " + e.Message);
+            }
+            catch (FormatException e)
+            {
+                Console.WriteLine("Erro no formato: " + e.Message);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Erro inesperado: " + e.Message);
+            }
         }
     }
 }
+

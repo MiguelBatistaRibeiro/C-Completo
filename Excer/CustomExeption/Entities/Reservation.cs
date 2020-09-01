@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CustomExeption.Entities.Exceptions;
+using System;
 
 namespace CustomExeption.Entities
 {
@@ -13,6 +14,11 @@ namespace CustomExeption.Entities
         }
         public Reservation(int roomNumber, DateTime checkIn, DateTime checkOut)
         {
+            if (checkOut <= checkIn)
+            {
+                throw new DomainException("Data de Saída menor que Entrada");
+            }
+
             RoomNumber = roomNumber;
             CheckIn = checkIn;
             CheckOut = checkOut;
@@ -22,21 +28,20 @@ namespace CustomExeption.Entities
             TimeSpan duration = CheckOut.Subtract(CheckIn);
             return (int)duration.TotalDays; 
         }
-        public string UpdateDates(DateTime checkIn, DateTime checkOut)
+        public void UpdateDates(DateTime checkIn, DateTime checkOut)
         {
             DateTime now = DateTime.Now;
             if (checkIn < now || checkOut < now)
             {
-                 return "Data Inferior a Data ATUAL";
+                 throw new DomainException ("Data Inferior a Data ATUAL"); // lançar exception
             }
             if (checkOut <= checkIn)
             {
-                 return "Data de Saída menor que Entrada";
+                 throw new DomainException ("Data de Saída menor que Entrada");
             }
 
             CheckIn = checkIn;
             CheckOut = checkOut;
-            return null;
         }
         public override string ToString()
         {
