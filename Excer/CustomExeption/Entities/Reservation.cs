@@ -22,10 +22,21 @@ namespace CustomExeption.Entities
             TimeSpan duration = CheckOut.Subtract(CheckIn);
             return (int)duration.TotalDays; 
         }
-        public void UpdateDates(DateTime checkIn, DateTime checkOut)
+        public string UpdateDates(DateTime checkIn, DateTime checkOut)
         {
+            DateTime now = DateTime.Now;
+            if (checkIn < now || checkOut < now)
+            {
+                 return "Data Inferior a Data ATUAL";
+            }
+            if (checkOut <= checkIn)
+            {
+                 return "Data de Saída menor que Entrada";
+            }
+
             CheckIn = checkIn;
             CheckOut = checkOut;
+            return null;
         }
         public override string ToString()
         {

@@ -14,12 +14,7 @@ namespace CustomExeption
             Console.WriteLine("Data Saída (dd/MM/yyyy): ");
             DateTime checkOut = DateTime.Parse(Console.ReadLine());
 
-            DateTime now = DateTime.Now; 
-            if (checkIn < now || checkOut < now) 
-            {
-                Console.WriteLine("Erro: Data Inferior a Data ATUAL");
-            }
-            else if (checkOut <= checkIn)
+            if (checkOut <= checkIn)
             {
                 Console.WriteLine("Erro: Data de Saída menor que Entrada");
             }
@@ -35,17 +30,14 @@ namespace CustomExeption
                 Console.WriteLine("Data Saída (dd/MM/yyyy): ");
                 checkOut = DateTime.Parse(Console.ReadLine());
 
-                if(checkIn < now || checkOut < now)
+                string error = reservation.UpdateDates(checkIn, checkOut);
+                
+                if(error != null)
                 {
-                    Console.WriteLine("Erro: Data Inferior a Data ATUAL");
-                } 
-                else if (checkOut <= checkIn)
-                {
-                    Console.WriteLine("Erro: Data de Saída menor que Entrada");
+                    Console.WriteLine("Erro na reserva: " + error);
                 }
                 else
                 {
-                    reservation.UpdateDates(checkIn, checkOut);
                     Console.WriteLine("Reserva: " + reservation);
                 }
             }
