@@ -16,7 +16,7 @@ namespace TryCatch
             }
             catch (DivideByZeroException) // se dividir por zero
             {
-                Console.WriteLine("Divisão por zero não é permitida");  
+                Console.WriteLine("Divisão por zero não é permitida");
             }
             catch (FormatException e) // se digitar letra
             {
@@ -43,5 +43,6 @@ namespace TryCatch
                     fs.Close();
                 }
             }
+        }
     }
 }

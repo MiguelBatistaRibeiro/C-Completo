@@ -1,5 +1,4 @@
 ﻿using AbstractObjects.Entities.Enums;
-using System;
 
 namespace AbstractObjects.Entities
 {
