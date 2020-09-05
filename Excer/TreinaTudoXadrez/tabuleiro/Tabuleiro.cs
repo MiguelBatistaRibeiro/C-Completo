@@ -1,6 +1,4 @@
-﻿using System.ComponentModel;
-
-namespace TreinaTudoXadrez.tabuleiro
+﻿namespace TreinaTudoXadrez.tabuleiro
 {
     class Tabuleiro
     {
@@ -16,6 +14,11 @@ namespace TreinaTudoXadrez.tabuleiro
         public Peca Peca(int linha, int coluna)
         {
             return Pecas[linha, coluna];
+        }
+        public void colocarPeca(Peca p, Posicao pos)
+        {
+            Pecas[pos.linha, pos.coluna] = p;
+            p.posicao = pos;
         }
     }
 }

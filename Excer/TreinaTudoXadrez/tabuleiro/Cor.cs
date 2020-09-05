@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace TreinaTudoXadrez.tabuleiro
+﻿namespace TreinaTudoXadrez.tabuleiro
 {
     enum Cor
     {
