@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreinaTudoXadrez", "TreinaT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IOExceptionFileFileInfo", "IOExceptionFileFileInfo\IOExceptionFileFileInfo.csproj", "{9ABB93D7-D14F-4726-B80A-82D0A8402228}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileStremStremReader", "FileStremStremReader\FileStremStremReader.csproj", "{2C68FA0C-139F-419F-8A16-AA021CE5D2A0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{9ABB93D7-D14F-4726-B80A-82D0A8402228}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9ABB93D7-D14F-4726-B80A-82D0A8402228}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9ABB93D7-D14F-4726-B80A-82D0A8402228}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C68FA0C-139F-419F-8A16-AA021CE5D2A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C68FA0C-139F-419F-8A16-AA021CE5D2A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C68FA0C-139F-419F-8A16-AA021CE5D2A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C68FA0C-139F-419F-8A16-AA021CE5D2A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
