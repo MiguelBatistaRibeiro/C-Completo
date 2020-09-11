@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IOExceptionFileFileInfo", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileStremStremReader", "FileStremStremReader\FileStremStremReader.csproj", "{2C68FA0C-139F-419F-8A16-AA021CE5D2A0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlocoUsing", "BlocoUsing\BlocoUsing.csproj", "{5B7B2D6B-FB11-4B01-BCDF-E50E8BF7AE46}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{2C68FA0C-139F-419F-8A16-AA021CE5D2A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C68FA0C-139F-419F-8A16-AA021CE5D2A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C68FA0C-139F-419F-8A16-AA021CE5D2A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B7B2D6B-FB11-4B01-BCDF-E50E8BF7AE46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B7B2D6B-FB11-4B01-BCDF-E50E8BF7AE46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B7B2D6B-FB11-4B01-BCDF-E50E8BF7AE46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B7B2D6B-FB11-4B01-BCDF-E50E8BF7AE46}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
