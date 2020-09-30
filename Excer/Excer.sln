@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlocoUsing", "BlocoUsing\Bl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "streamWriter", "StreamWriter\streamWriter.csproj", "{BE622C7A-4A81-4577-B7D1-F4CCA717641A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectoryAndDirectoryInfo", "DirectoryAndDirectoryInfo\DirectoryAndDirectoryInfo.csproj", "{52DAD470-0C3E-47AF-A9A1-129700EB2B55}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +131,10 @@ Global
 		{BE622C7A-4A81-4577-B7D1-F4CCA717641A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE622C7A-4A81-4577-B7D1-F4CCA717641A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE622C7A-4A81-4577-B7D1-F4CCA717641A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52DAD470-0C3E-47AF-A9A1-129700EB2B55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52DAD470-0C3E-47AF-A9A1-129700EB2B55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52DAD470-0C3E-47AF-A9A1-129700EB2B55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52DAD470-0C3E-47AF-A9A1-129700EB2B55}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
