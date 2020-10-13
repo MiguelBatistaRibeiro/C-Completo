@@ -53,6 +53,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExercicioComInterface", "Ex
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProblemaDiamanteHerenca", "ProblemaDiamanteHerenca\ProblemaDiamanteHerenca.csproj", "{8C7E5A6B-9F96-4BF7-8F0E-D4FFA0ABA951}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComparableObjects", "ComparableObjects\ComparableObjects.csproj", "{429F0982-5D0B-452E-8E2C-480D4D67CB3D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -159,6 +161,10 @@ Global
 		{8C7E5A6B-9F96-4BF7-8F0E-D4FFA0ABA951}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C7E5A6B-9F96-4BF7-8F0E-D4FFA0ABA951}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C7E5A6B-9F96-4BF7-8F0E-D4FFA0ABA951}.Release|Any CPU.Build.0 = Release|Any CPU
+		{429F0982-5D0B-452E-8E2C-480D4D67CB3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{429F0982-5D0B-452E-8E2C-480D4D67CB3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{429F0982-5D0B-452E-8E2C-480D4D67CB3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{429F0982-5D0B-452E-8E2C-480D4D67CB3D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
