@@ -57,6 +57,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComparableObjects", "Compar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericsPjr", "GenericsPjr\GenericsPjr.csproj", "{EE5D2439-C3EE-40FC-8654-288FF579D081}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericsRestrictions", "GenericsRestrictions\GenericsRestrictions.csproj", "{F123F4B9-00D3-4818-AFEE-5100A9B6B462}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -171,6 +173,10 @@ Global
 		{EE5D2439-C3EE-40FC-8654-288FF579D081}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE5D2439-C3EE-40FC-8654-288FF579D081}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE5D2439-C3EE-40FC-8654-288FF579D081}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F123F4B9-00D3-4818-AFEE-5100A9B6B462}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F123F4B9-00D3-4818-AFEE-5100A9B6B462}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F123F4B9-00D3-4818-AFEE-5100A9B6B462}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F123F4B9-00D3-4818-AFEE-5100A9B6B462}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
