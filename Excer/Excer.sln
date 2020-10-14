@@ -59,6 +59,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericsPjr", "GenericsPjr\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericsRestrictions", "GenericsRestrictions\GenericsRestrictions.csproj", "{F123F4B9-00D3-4818-AFEE-5100A9B6B462}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashSetAndSortedSet", "HashSetAndSortedSet\HashSetAndSortedSet.csproj", "{E96EB38E-B1DC-4865-8E8F-B9E4EB6924F9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -177,6 +179,10 @@ Global
 		{F123F4B9-00D3-4818-AFEE-5100A9B6B462}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F123F4B9-00D3-4818-AFEE-5100A9B6B462}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F123F4B9-00D3-4818-AFEE-5100A9B6B462}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E96EB38E-B1DC-4865-8E8F-B9E4EB6924F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E96EB38E-B1DC-4865-8E8F-B9E4EB6924F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E96EB38E-B1DC-4865-8E8F-B9E4EB6924F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E96EB38E-B1DC-4865-8E8F-B9E4EB6924F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
