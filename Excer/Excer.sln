@@ -65,6 +65,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashComparison", "HashCompa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExercicioConjuntos", "ExercicioConjuntos\ExercicioConjuntos.csproj", "{0B722B3A-9AFC-4F72-94D8-3C4599CB62A9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExercicioMatriculaAlunos", "ExercicioMatriculaAlunos\ExercicioMatriculaAlunos.csproj", "{E98C4A05-F65D-4025-A371-4D479F602352}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -195,6 +197,10 @@ Global
 		{0B722B3A-9AFC-4F72-94D8-3C4599CB62A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B722B3A-9AFC-4F72-94D8-3C4599CB62A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B722B3A-9AFC-4F72-94D8-3C4599CB62A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E98C4A05-F65D-4025-A371-4D479F602352}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E98C4A05-F65D-4025-A371-4D479F602352}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E98C4A05-F65D-4025-A371-4D479F602352}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E98C4A05-F65D-4025-A371-4D479F602352}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
