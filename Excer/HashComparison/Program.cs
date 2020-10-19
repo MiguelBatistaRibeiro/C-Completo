@@ -1,14 +1,11 @@
 ﻿using HashComparison.Entities;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace HashComparison
 {
     class Program
-    {
+    { 
         static void Main(string[] args)
         {
             // dois produtos adicionados ao conjunto
