@@ -71,6 +71,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoDictionary", "DemoDicti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExercicioDictionary", "ConsoleApp1\ExercicioDictionary.csproj", "{EF533693-F0B1-409A-9E73-5001A285F3B3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DictionaryCandidateVote", "DictionaryCandidateVote\DictionaryCandidateVote.csproj", "{DD1EF704-F8AF-4EB2-9F79-728CD32BDB37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionMethods", "ExtensionMethods\ExtensionMethods.csproj", "{EAEED71C-1259-40BB-AF5E-D2F6E644F04C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -213,6 +217,14 @@ Global
 		{EF533693-F0B1-409A-9E73-5001A285F3B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF533693-F0B1-409A-9E73-5001A285F3B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF533693-F0B1-409A-9E73-5001A285F3B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD1EF704-F8AF-4EB2-9F79-728CD32BDB37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD1EF704-F8AF-4EB2-9F79-728CD32BDB37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD1EF704-F8AF-4EB2-9F79-728CD32BDB37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD1EF704-F8AF-4EB2-9F79-728CD32BDB37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAEED71C-1259-40BB-AF5E-D2F6E644F04C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAEED71C-1259-40BB-AF5E-D2F6E644F04C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAEED71C-1259-40BB-AF5E-D2F6E644F04C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAEED71C-1259-40BB-AF5E-D2F6E644F04C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
